@@ -182,7 +182,7 @@ h6 {
  width: 100%;
 }
 .downloadApp-banner{
-  width: 180px;
+  width: 200px;
   height: 66px;
   background-image: url(../src/img/playstore-btn.png);
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ h6 {
   border-radius: 10px;
 }
 .downloadApp-banner-play{
-  width: 180px;
+  width: 200px;
   height: 66px;
   background-image: url(../src/img/playstore-btn.png);
   background-repeat: no-repeat;
@@ -215,6 +215,33 @@ h6 {
   overflow: hidden;
   border-radius: 10px;
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 380px) {
+  .downloadApp-banner-play{
+    width: 160px;
+    height: 60px;
+    background-image: url(../src/img/playstore-btn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  .downloadApp-banner-ios{
+    width: 160px;
+    height: 60px;
+    background-image: url(../src/img/ios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
 }
 .roadimgbox{
   width: 100%;
