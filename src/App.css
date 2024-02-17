@@ -1,0 +1,639 @@
+@font-face {
+  font-family: Montserrat-bold;
+  src: url(fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Semibold;
+  src: url(fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+
+* {
+  margin: 0px 0px;
+  font-family: Montserrat-Regular;
+}
+h1,
+h2,
+h6 {
+  font-family: Montserrat-Semibold;
+}
+
+.featurecontainer {
+  padding-top: 30px;
+}
+.home {
+  position: relative;
+  width: 100%;
+  background: url("/src/img/home.png");
+  height: 350px;
+  background-size: cover;
+}
+.homecard {
+  width: 35%;
+  margin-left: 150px;
+}
+.homebtn {
+  background-image: url("/src/img/playstore-btn.png");
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-color: white !important;
+  border: none !important;
+  background-size: cover;
+}
+.rowClass {
+  display: flex;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 501px;
+  margin: auto;
+}
+.logoImg {
+  width: 200px;
+  height: auto;
+}
+.footerlogoImg {
+  width: 200px;
+  height: auto;
+}
+.navbar {
+  height: 90px;
+}
+.navLink {
+  padding: 10px 10px;
+  font-family: Montserrat-Medium;
+}
+.nav-link {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  font-family: Montserrat-Medium;
+}
+
+.card {
+  border: none !important;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+}
+.cards {
+  width: 100% !important;
+  height: 100% !important;
+  /* margin: 10px 20px; */
+  display: flex;
+  flex-direction: column;
+}
+.cardBody {
+  padding: 35px 15px !important;
+}
+h6 {
+  margin-top: 2rem !important;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+.card1 {
+  width: 65%;
+}
+.cardContainer1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+}
+.cards1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100% !important;
+  height: 100% !important;
+}
+.Navbar-Brand {
+  display: flex;
+  flex-direction: column;
+}
+.blogContainer {
+  background-color: rgb(255, 102, 0);
+  padding-top: 2%;
+}
+/* @media screen and (max-width: 980px) {
+    .logoImg{
+
+    }
+  } */
+.blogCard {
+  background-color: orange;
+  border: none;
+}
+
+/* ====new==== */
+.navcolor{
+  background-color: #fff;
+}
+.navShadow{
+  box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.10);
+  transition: all 0.5s ease;
+}
+.banner{
+  padding-right: 10% !important;
+  display: flex;
+  flex-direction: column;
+}
+.banner h1{
+  font-size: 3em;
+}
+.banner p{
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+.no-padding{
+  padding: 0px !important;
+}
+.flexDisplay{
+  display: flex;
+}
+.positionRelative{
+  position: relative;
+}
+.bannerroad{
+  margin: 0% 0px 4% 0px !important;
+  padding: 0px !important;
+  padding-top: 10% !important;
+}
+.bannerroad img{
+ width: 100%;
+}
+.downloadApp-banner{
+  width: 200px;
+  height: 66px;
+  background-image: url(../src/img/playstore-btn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.downloadApp-banner-play{
+  width: 200px;
+  height: 66px;
+  background-image: url(../src/img/playstore-btn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.downloadApp-banner-ios{
+  width: 200px;
+  height: 66px;
+  background-image: url(../src/img/ios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.roadimgbox{
+  width: 100%;
+  position: absolute;
+  bottom: -116px;
+}
+.roadImgCont{
+  width: 100%;
+  position: absolute;
+  right: 0px;
+  z-index: 100;
+  top: 56px;
+}
+.roadImgCont img{
+  width: 100%;
+}
+.aboutusTXT {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  text-align: center;
+  width: 60%;
+  margin-top:12%;
+  margin-bottom: 4%;
+}
+.aboutIMG img{
+  width: 100%;
+}
+.carpoolTXT{
+  padding-left: 12%;
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+.carpoolTXT h2{
+  font-size: 28px;
+}
+.carpoolTXT h6{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.greybackground{
+  background-color: #efefef;
+  overflow: hidden;
+}
+.redbackground{
+  background-color: #c20505;
+}
+.mobilefloat{
+  margin-top: 15% !important;
+}
+.mobilefloat img{
+  width: 80%;
+}
+.floatButton{
+  background-color: #fff !important;
+  min-width: 300px;
+  border-radius: 30px !important;
+  padding:15px 40px !important;
+  border: none !important;
+  color: #000 !important;
+  font-family: Montserrat-Medium !important;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+}
+.floatRow{
+  width: 100%;
+  position: absolute;
+}
+.positionRelative .floatRow:nth-child(even){
+  text-align: right;
+}
+.positionRelative .floatRow:nth-child(odd){
+  text-align: left;
+}
+
+.positionRelativeRight{
+  position: relative;
+  padding-left: 5% !important;
+}
+.positionRelativeRight .floatRow:nth-child(even){
+  text-align: left;
+}
+.positionRelativeRight .floatRow:nth-child(odd){
+  text-align: right;
+}
+.positionRelative .floatRow:nth-child(1), .positionRelativeRight .floatRow:nth-child(1){
+  top: 480px;
+}
+.positionRelative .floatRow:nth-child(2), .positionRelativeRight .floatRow:nth-child(2){
+  top: 500px;
+}
+.positionRelative .floatRow:nth-child(3), .positionRelativeRight .floatRow:nth-child(3){
+  top: 620px;
+}
+.sectionTXT{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top:5%;
+  padding-bottom: 1%;
+}
+.imgresponsive{
+  width: 100%;
+}
+.benefitListBG{
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.benefitListBG ul{
+  padding: 0px;
+  margin: 0px;
+}
+.benefitListBG ul li{
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 40px;
+  float: left;
+}
+.benefitListBG ul li .listIMG{
+  margin-right: 15px;
+  width: 60px;
+}
+.benefitListBG ul li .listTXT{
+  font-family: Montserrat-Medium;
+}
+.benefitListBG ul li .listIMG img{
+  width: 55px;
+}
+.blogIMG img{
+  width: 100%;
+}
+.appDetails{
+  width:100%;
+  padding-top: 10%;
+  padding-right: 20%;
+}
+.appDetails h2{
+  font-size: 40px;
+  color: #fff;
+}
+.appDetails p{
+  padding-top: 3%;
+  font-family: Montserrat-Medium;
+  color: #fff;
+}
+.appDetails button{
+  width: 300px;
+  background-color: #fff;
+  border-radius:50px;
+  font-family: Montserrat-SemiBold;
+  font-size: 15px;
+  padding: 10px 5px;
+  border:none;
+  margin-top: 10px;
+}
+.appDetails button img{
+  width: 20px;
+}
+.footerBG{
+  background-color: #3f3f3f;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+.footerLogo{
+  width: 100%;
+}
+.footerLogo img{
+  width: 300px;
+}
+.footerAboutTXT{
+  width: 100%;
+  font-family: Montserrat-Medium;
+  color: #fff;
+  padding-top: 10%;
+}
+.footerAboutTXT p{
+  font-size: 14px;
+}
+.footerMenu{
+  width: 100%;
+}
+.footerMenu ul{
+  padding: 0px;
+  margin: 0px;
+}
+.footerMenu ul li{
+  list-style: none;
+}
+.footerMenu ul li a{
+  color: #c5c3c3 !important;
+  display: block;
+  margin-bottom: 14px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footerMenu ul li a:hover{
+  color: #fff !important;
+}
+.footerMenu ul .menuHead{
+  font-family: Montserrat-Medium;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footerbottomBG{
+  background-color: #000;
+  padding: 10px;
+}
+.footerbottomBG p{
+  color: #adaaaa;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.footerSocialLink{
+  display: flex;
+  justify-content: flex-end;
+}
+.footerSocialLink ul{
+  padding: 0px;
+  margin: 0px;
+}
+.footerSocialLink ul li{
+  float: left;
+  list-style: none;
+  color: #adaaaa;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.footerSocialLink ul li img{
+  width: 15px;
+}
+
+.bounceBottom .floatRow:nth-child(1), .bounceBottom .floatRow:nth-child(1){
+  top: 0px !important;
+  animation: bounce-in-bottom 2.5s ease;
+}
+.bounceBottom .floatRow:nth-child(2), .bounceBottom .floatRow:nth-child(2){
+  top: 80px !important;
+  animation: bounce-in-bottom 2s ease;
+}
+.bounceBottom .floatRow:nth-child(3), .bounceBottom .floatRow:nth-child(3){
+  top: 180px !important;
+  animation: bounce-in-bottom 3s ease;
+}
+/* .bounce-in-bottom {
+  animation: bounce-in-right 2s ease;
+} */
+@keyframes bounce-in-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  80% { transform: translateY(10px); }
+  100% { transform: translateY(0); }
+}
+.bounceanimation{
+  animation: bounceEase 3s ease infinite ;
+}
+@keyframes bounceEase {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+}
+.aboutsection{
+  width: 100%;
+  padding-top: 2%;
+}
+.getintouch ul li a span img{
+  width: 15px;
+  margin-right: 10px;
+}
+.getintouch ul li a{
+  display: flex;
+  margin-bottom: 0px !important;
+}
+@media only screen and (max-width:1900px){
+  .roadImgCont{
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: -110px;
+  }
+  .bannerroad{
+    margin: 0% 0% 3% 0px !important;
+    padding: 0px !important;
+    padding-top: 3% !important;
+  }
+}
+
+@media only screen and (max-width:1315px){
+  .bannerroad {
+    margin: 0% 0!important;
+    padding: 0!important;
+    padding-top: 14% !important;
+}
+.roadImgCont{
+  top: 109px;
+}
+.aboutsection{
+  padding-top: 5%;
+  margin-top: 2%;
+}
+}
+
+@media only screen and (max-width:799px){
+  .roadimgbox {
+    position: relative;
+    bottom: auto;
+}
+.roadImgCont{
+  position: relative;
+  bottom: auto;
+  top: 17px;
+}
+.aboutusTXT{
+  width: 100% ;
+}
+.carpoolTXT{
+  padding-left: 4%;
+}
+.floatRow{
+  position: static;
+}
+.mobilefloat img{
+  width: 100%;
+}
+.benefitListBG{
+  padding-left: 0px;
+}
+.sectionTXT{
+  width: 90%;
+}
+.appDetails{
+  padding-right: 0px;
+  text-align: center;
+}
+.bannerroad{
+  margin-top: 25% !important;
+}
+.banner h1{
+  font-size: 2em;
+}
+.downloadApp-banner{
+  width: 152px;
+  height: 52px;
+}
+}
+.privacyTxt{
+  width: 100%;
+
+}
+
+.privacyTxt h1{
+  font-size: 50px;
+  margin-bottom: 4%;
+}
+
+.privacyTxt h2{
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+.privacyTxt h3{
+  font-size: 30px;
+  margin-bottom: 1%;
+  font-weight: 600;
+  margin-top: 1%;
+}
+.privacyTxt h4{
+  font-size: 22px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: 600;
+}
+
+
+.insideBanner{
+  padding-top: 7% !important;
+  margin-bottom: 5px !important;
+}
+section{
+  width: 100%;
+  border-bottom: 1px dashed #a3a1a1;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+.breadCrumb{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  margin-bottom: 40px;
+}
+.breadCrumb li{
+  list-style: none;
+  padding: 0px 5px;
+}
+.breadCrumb li a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+
+.download-btn {
+  background-color: rgb(255, 102, 0);
+color:#fff
+
+}
