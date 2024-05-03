@@ -10,9 +10,6 @@ export default function Download() {
 			const gotoLinkIos = () => {
 				window.open("https://apps.apple.com/us/app/freelly-bikepool-carpool/id6476261777", "_blank");
 					};
-
-
-
 	return (
 		<div style={{display: 'flex',
 			alignItems: 'center',

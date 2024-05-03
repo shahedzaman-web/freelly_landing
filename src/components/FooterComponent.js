@@ -24,9 +24,9 @@ const FooterComponent = () => {
               <div className="footerMenu">
                 <ul>
                   <li className="menuHead">More</li>
-                  <li><div href="/">About Us</div></li>
-                  <li><div onClick={()=>navigate("/privacy")}>Privacy Policy</div></li>
-                  <li><div href="/">FAQ's</div></li>
+                  <li><div className="fs-6 text-white" href="/">About Us</div></li>
+                  <li><div className="text-white" onClick={()=>navigate("/privacy")}>Privacy Policy</div></li>
+                  <li><div className="text-white" href="/">FAQ's</div></li>
                 </ul>
               </div>
             </Col>
@@ -35,9 +35,9 @@ const FooterComponent = () => {
                 <ul>
                   <li className="menuHead">Get in Touch</li>
 
-                  <li><div><span><img src={require('../img/locationpin.png')} alt={require('../img/locationpin.png')}/></span> <p>House 87-89, Road 4, Block B, Niketan Housing Society, Dhaka.</p></div></li>
-                  <li><div><span><img src={require('../img/mail.png')} alt={require('../img/mail.png')}/></span> <p>support@freelly.com</p></div></li>
-                  <li><div><span><img src={require('../img/phone.png')} alt={require('../img/phone.png')}/></span> <p>+8809638114477 </p></div></li>
+                  <li><div className="flex flex-row"><span className="col"><img src={require('../img/locationpin.png')} alt={require('../img/locationpin.png')}/></span> <p className="col text-white">House 87-89, Road 4, Block B, Niketan Housing Society, Dhaka.</p></div></li>
+                  <li><div><span><img src={require('../img/mail.png')} alt={require('../img/mail.png')}/></span> <p className="text-white">support@freelly.com</p></div></li>
+                  <li><div><span><img src={require('../img/phone.png')} alt={require('../img/phone.png')}/></span> <p className="text-white">+8809638114477 </p></div></li>
                 </ul>
               </div>
             </Col>
